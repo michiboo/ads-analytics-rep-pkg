@@ -6,3 +6,6 @@ This sections consists of raw data, Python scripts to run the experiments, R scr
 - *pythonscripts*: It has individual Python scripts to remove ads and analytics from each 10 web apps.
 - *Figures*: It contains all the diagrams that are generated while performing data analysis
 - *Raw data*: It consists all the data that are generated during the experiments. This is the data on which we are doing data extraction before performing data analysis.
+- *proxy: In the folder we have a certificate to be installed in the client device. before running the proxy servery we need to update our device's proxy setting to "manual" and set a "localhost:8081" port. and finaly, In order to run the proxy server we use the following commands:
+  - /mitmweb : to run the proxy server without script
+  - /mitmweb -s prepared_script.py : to run the proxy with script that intercepts and edits the response. 
