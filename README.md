@@ -7,7 +7,4 @@ The dataset connsists information about: (i)Python scripts to remove ads and ana
 
 The following is the information of each folder in this repository:
 - *AndroidRunner*: A fork version of Android Runner framework on which we did some customization for running our experiment.
-- *Data Analysis*: This folder consists the final CSVs file for both the treatments with 200 repetitions. It also has all the R scripts used for all the phases(data extration, data exploration, normality tests, and hypothesis testing) of  data analysis.
-- *Scripts*: It contains all the Python scripts needed to handle the events(before run, before experiment, before close, after launch, after experiment, etc) of the experiment.
-- *Experiments*: It contains config files and Python scripts needed to run the experiment.
-- *pythonscripts*: It has individual Python scripts to remove ads and analytics from each 10 web apps.
+- *replication_package*: This folder consists all the data, Python scripts, R scripts needed to replicate the experiments along with data analysis. It also consists figures that are generated while performing data anlysis.
